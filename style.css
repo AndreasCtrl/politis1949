@@ -13,4 +13,25 @@ a {
 
 * {
 	box-sizing: border-box;
+	color: white;
+}
+
+h1 {
+	color: #ffbf00;
+}
+h2 {
+	color: #ffbf00;
+}
+
+h3 {
+	content: "";
+	border-top: 1px solid #7f7faf;
+	margin: 0 30px 0 0;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 0 20px;
+	flex: 1 0 20px;
+}
+
+h3:after {
+	margin: 0 0 0 30px;
 }

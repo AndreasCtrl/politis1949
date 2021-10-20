@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FOR SEO -->
+    <meta name="keywords" content="web developer, developer, frontend developer portfolio, frontend developer, Andreas Koutroulis" />
+    <meta name="description" content="Andreas Koutroulis Web Developer Portfolio" />  
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles2.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Πολίτης</title>
+    <!-- TITLE ICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+</head>
+
+<body>    
+<!-- Landing Section Starts -->
+  <!-- Header -->
+  <header>
+  <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg light-nav navbar-dark">
+      <!-- Toggle Theme Button Start -->
+      <!-- <div class="theme-toggle-btn">
+        <input type="checkbox" class="checkbox" id="chk">
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div> -->
+      <!-- Toggle Theme Button End -->
+      <!-- <button class="navbar-toggler light-mode-toggle" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon light-mode-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse justify-content-md" id="main_nav">
+        <ul class="navbar-nav ml-auto light-list">
+          <li class="nav-item light-item">
+            <a class="nav-link light-link" href="#katastima">ΚΑΤΑΣΤΗΜΑ</a>
+          </li>
+          <li class="nav-item light-item">
+            <a class="nav-link light-link" href="#service">SERVICE</a>
+          </li>
+          <li class="nav-item light-item">
+            <a class="nav-link light-link" href="#istoriko">ΙΣΤΟΡΙΚΟ</a>
+          </li>
+          <li class="nav-item light-item">
+            <a class="nav-link light-link" href="#contact">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+          </li>
+          <li class="nav-item light-item">
+            <a class="nav-link light-link" href="#">E-SHOP</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <!-- Navbar End -->
+  <!-- Headings  -->
+    <div class="landing" id="landing">
+ 
+      <h1 data-aos="fade-up" data-aos-duration="1000">Πολίτης 1949</h1>
+           <h3>Τρεις γενιές κοσμήματα</h3>
+      <!-- <h3 class="sub-heading light-sub-heading">I am <span class="typed-text"></span><span class="cursor">&nbsp;</span></h3> -->
+      <a href="#katastima" class="light-btn"><i class="fas fa-angle-double-down start-btn"></i></a>
+    </div>    
+  </header>
+<!-- Landing Section Ends -->
+  <main>
+    <!-- Button to top -->
+    <button onclick="topBtn()" id="topBtn" class="top-btn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+    <!-- About Section Start -->
+    <section class="katastima">
+      <h2 id="katastima"><span>Κατάστημα</span></h2> 
+      <div class="container about-content">
+        <div class="row">
+          <div class="col-lg-5 mb-md-0 mb-5 bio" data-aos="fade-up" data-aos-duration="1000">
+            <p>Το κατάστημά μας, βρίσκεται στην κεντρική πλατεία της Καλλονής, παραπλεύρως του ταχυδρομικού καταστήματος Καλλονής.</p>
+            <p>Λειτουργούμε καθημερινά από τις 8:30 το πρωί έως τις 14:30 το μεσημέρι. Απόγευμα λειτουργούμε κάθε Τρίτη, Πέμπτη και Παρασκευή από τις 17:30 μέχρι τις 21:0</p>
+           </div>
+          <div class="col-lg-7 photo-btn" data-aos="fade-down" data-aos-duration="1000">
+            <img src="/images/004.jpg" alt="store-photo">
+            
+          </div>    
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+    <!-- Services Section Start -->
+    <section id="service" class="service">
+      <!-- Tech and tools icons -->
+      <h2>Service</h2>
+      <div class="container tech-icons" data-aos="fade-up" data-aos-duration="1000">
+        <!-- First Row -->
+        <div class="row">
+          <div class="col-sm">
+            <i class="fab fa-html5"></i>
+            <div>HTML</div>
+          </div>
+          <div class="col-sm">
+            <i class="fab fa-css3-alt"></i>
+            <div>CSS</div>
+          </div>
+          <div class="col-sm">
+            <img src="assets/icons/bootstrap-icon-pink.png" alt="bootstrap">
+            <div>Bootstrap</div>
+          </div>
+          <div class="col-sm">
+            <i class="fab fa-sass"></i>
+            <div>Sass/Scss</div>
+          </div>     
+        </div>         
+        <!-- Second Row -->
+        <div class="row">
+          <div class="col-sm">
+            <i class="fab fa-js-square"></i>
+            <div>JavaScript</div>
+          </div>
+          <div class="col-sm">
+            <img class="icon-tools" src="assets/icons/jquery-icon-pink.png" alt="jquery">
+            <div>jQuery</div>
+          </div> 
+          <div class="col-sm">
+            <i class="fab fa-react"></i>
+            <div>React</div>
+          </div>
+          <div class="col-sm">
+            <img src="assets/icons/git-icon-pink.png" alt="git">
+            <div>Git</div>
+          </div>                                      
+        </div>
+        <!-- Third Row -->
+        <div class="row">
+          <div class="col-sm">
+            <i class="fab fa-node"></i>
+            <div>Node.js</div>
+          </div>
+          <div class="col-sm">
+            <i class="fas fa-database"></i>
+            <div>SQL</div>
+          </div>  
+          <div class="col-sm">
+            <img src="assets/icons/mongo-icon-pink.png" alt="MongoDB">
+            <div>MongoDB</div>
+          </div>  
+        </div>
+      </div>
+      <!-- Tech and tools icons end -->
+      <!-- Services section end -->
+    </section>
+    <!-- Projects Section Start -->
+    <section id="projects" class="projects">
+        <h2><span>Featured Projects</span></h2>
+        <!-- Cards Grid Start -->
+        <div class="container">
+          <!-- First row start -->
+          <div class="row card-row" data-aos="flip-up" data-aos-duration="1000">                   
+            <!-- Card One Start -->
+            <div class="col-md-6 card-col">
+              <div class="card-container">
+                <div class="card-flip">
+                  <!-- Card 1 front -->
+                  <div class="card front light-card">
+                    <img src="assets/photo/schoolOfCodeCRUD.png" class="card-img-top img-fluid" alt="Private School CRUD">
+                    <div class="card-block">
+                      <h4 class="card-title">School Of Code</h4>
+                    </div>
+                  </div>    
+                  <!-- Card 1 back  -->
+                  <div class="card back light-card">
+                    <div class="card-header">School Of Code</div>   
+                    <div class="card-block light-card-block">
+                      <p class="card-text back-description">An express application that apply CRUD functionality at it's models.</p>
+                      <p class="back-subtitle">Technologies and tools used:</p>
+                      <div>HTML | CSS | JavaScript | NODE | Express | MySQL</div>
+                    </div>
+                  </div>
+                </div>  
+              </div>  
+              <!-- End of card one container-->
+              <!-- Buttons -->
+              <div class="card-buttons">
+                <a href="https://github.com/AndreasCtrl/privateSchool" title="Source Code" target="_blank"><i class="fab fa-github"></i></a>
+                <!-- <a href="https://github.com/AndreasCtrl/privateSchool" title="View Live" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+              </div>  
+              <!-- Buttons end -->
+            </div>
+            <!-- Card One End -->
+            <!-- Card Two Start -->
+            <div class="col-md-6 card-col">
+              <div class="card-container">
+                <div class="card-flip">
+                  <!-- Card 2 front -->
+                  <div class="card front light-card">
+                    <img src="assets/photo/tv-show-search.png" class="card-img-top img-fluid" alt="yelpcamp full-stack project">
+                    <div class="card-block">
+                      <h4 class="card-title">TV Shows Search</h4>
+                    </div>
+                  </div> 
+                  <!-- Card 2 back -->
+                  <div class="card back light-card">
+                    <div class="card-header">TV Shows Search</div>   
+                    <div class="card-block">
+                      <p class="card-text back-description">Search for TV shows and series through TV maze api using axios promises.</p>
+                      <p class="back-subtitle">Technologies and Tools used:</p>
+                      <div>HTML | CSS | JavaScript | Express | Axios | Postman</div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <!-- End of card 2 container -->
+              <!-- Buttons -->
+              <div class="card-buttons">
+                <a href="https://github.com/AndreasCtrl/searchTVshows" title="Source Code" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://tv-shows-search.herokuapp.com/" title="View Live" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>  
+              <!-- Buttons end -->
+            </div>
+            <!-- Card two end -->
+          </div>
+          <!-- First row of cards start -->
+          <!-- Second row of cards start -->
+          <div class="row card-row" data-aos="flip-down" data-aos-duration="1000">
+            <!-- Card Three start -->
+            <div class="col-md-6 card-col">
+              <div class="card-container">
+                <div class="card-flip">
+                  <!-- Card 4 front -->
+                  <div class="card front light-card">
+                    <img src="" class="card-img-top img-fluid" alt="">
+                    <div class="card-block">
+                      <h4 class="card-title">eBook</h4>
+                      <p class="card-text">Comming soon...</p>
+                    </div>
+                  </div>     
+                  <!-- Card 4 back -->
+                  <div class="card back light-card">
+                    <div class="card-header">Comming soon...</div>   
+                    <div class="card-block">
+                      <p class="card-text back-description"></p>
+                      <p class="back-subtitle"></p>
+                    <div></div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <!-- End of card 4 container -->
+              <!-- Buttons -->  
+              <div class="card-buttons">
+                <a href="" title="Source Code" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="" title="View Live" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>  
+            </div>  
+            <!-- Card three end -->
+            <!-- Card Four start -->
+            <div class="col-md-6 card-col">
+              <div class="card-container">
+                <div class="card-flip">
+                  <!-- Card 4 front -->
+                  <div class="card front light-card">
+                    <img src="" class="card-img-top img-fluid" alt="">
+                    <div class="card-block">
+                      <h4 class="card-title">Video Club </h4>
+                      <p class="card-text">Comming soon...</p>
+                    </div>
+                  </div>     
+                  <!-- Card 4 back -->
+                  <div class="card back light-card">
+                    <div class="card-header">Comming soon...</div>   
+                    <div class="card-block">
+                      <p class="card-text back-description"></p>
+                      <p class="back-subtitle"></p>
+                    <div></div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <!-- End of card 4 container -->
+              <!-- Buttons -->  
+              <div class="card-buttons">
+                <a href="" title="Source Code" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="" title="View Live" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              </div>  
+            </div>  
+            <!-- Card four end -->
+          </div>
+        </div>  
+        <!-- Card grid container end -->
+        <!-- See more button -->
+        <div class="projects-btn" data-aos="zoom-in" data-aos-duration="1000">
+          <button class="btn light-btn">
+            <a href="https://github.com/AndreasCtrl" target="_blank" class="hvr-icon-wobble-horizontal">
+              <span>View All Projects </span><i class="arrow-right fas fa-arrow-right hvr-icon"></i>
+            </a>
+          </button> 
+        </div>         
+    </section>
+    <!-- Project Section End -->
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Contact me</span></h2>
+      <div class="icon-section container">
+        <p class="text-center">Do you have a project in mind? Would you like me to join your team? Don't hesitate to <a class="contact-me" href="mailto: andreaskoutroul@gmail.com">contact me:</a></p>  
+        <div class="row" data-aos="fade-down" data-aos-duration="1000">
+          <div class="col-sm">
+            <i class="fas fa-map-marker-alt"></i>
+            <p class="under-text">Athens, Greece</p>
+          </div>
+          <div class="col-sm">  
+            <a href="mailto: andrewkout@hotmail.com"><i class="fas fa-envelope"></i></a></li>
+            <p class="under-text">andrewkout@hotmail.com</p>
+          </div>
+        </div>  
+        <div class="social" data-aos="fade-up" data-aos-duration="1000">
+          <h5>Social Media</h5>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/andreas-koutroulis/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/AndreasCtrl" target="_blank"><i class="fab fa-github-square"></i></a>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <!-- Contact section end -->
+  </main>
+  <!-- Main area end -->
+
+  <!-- Scripts     -->
+  <script src="/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript">
+    AOS.init();
+  </script>
+  <!-- Scripts end -->
+</body>
+</html>
+
