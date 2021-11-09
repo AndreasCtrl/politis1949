@@ -301,12 +301,12 @@ header .landing .sub-heading .cursor.typing {
 	animation: none;
 }
 
-.katastima {
+/* .katastima {
 	height: 100%;
 	padding: 0;
-}
+} */
 
-.katastima .container {
+/* .katastima .container {
 	padding: 3em 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -318,15 +318,14 @@ header .landing .sub-heading .cursor.typing {
 	-ms-flex-align: center;
 	align-items: center;
 	/* width: 80%; */
-}
 
-.katastima .container .bio {
+/* .katastima .container .bio {
 	-ms-flex-item-align: center;
 	-ms-grid-row-align: center;
 	align-self: center;
-}
+} */
 
-.katastima .container {
+/* .katastima .container {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -340,7 +339,7 @@ header .landing .sub-heading .cursor.typing {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-}
+} */
 
 .photo-base img {
 	-o-object-fit: cover;
@@ -349,10 +348,6 @@ header .landing .sub-heading .cursor.typing {
 	height: 430px;
 	width: 430px;
 	margin-bottom: 2em;
-}
-
-.services {
-	text-align: center;
 }
 
 .contact .contact-me {
