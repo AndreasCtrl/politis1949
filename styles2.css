@@ -67,6 +67,10 @@ main {
 	overflow-y: hidden;
 }
 
+.navbar.navbar-expand-lg.light-nav.navbar-dark {
+	background-color: rgba(33, 37, 41, 0.7);
+}
+
 section {
 	height: 100%;
 	padding: 5em 0;
@@ -305,9 +309,18 @@ header .landing .sub-heading .cursor.typing {
 	position: absolute;
 	z-index: -1;
 	bottom: 20px;
-	right: 20px;
+	left: 20px;
 	opacity: 0.6;
 	width: 40%;
+}
+
+.landingWatch {
+	position: absolute;
+	z-index: -2;
+	top: 0;
+	right: 0;
+	opacity: 0.6;
+	width: 350px;
 }
 
 /* .katastima {
