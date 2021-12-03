@@ -348,15 +348,6 @@ header .landing .sub-heading .cursor.typing {
 	margin-bottom: 2em;
 }
 
-.contact .contact-me {
-	color: #e5dff5;
-	font-weight: 600;
-}
-
-.contact .contact-me:hover {
-	color: #9e3155;
-}
-
 .contact .container {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -418,4 +409,11 @@ header .landing .sub-heading .cursor.typing {
 .swiper-button-prev:after,
 .swiper-button-next:after {
 	color: white;
+}
+
+@media only screen and (max-width: 800px) {
+	.landingWatch {
+		width: 50%;
+		min-width: 180px;
+	}
 }
