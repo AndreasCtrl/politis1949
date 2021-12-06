@@ -137,10 +137,6 @@ header .navbar .navbar-nav .nav-item .nav-link {
 	margin: 1em;
 }
 
-/* header .navbar .navbar-nav .nav-item .nav-link:hover {
-	text-shadow: 20px 2px 5px rgba(177, 139, 40, 0.5);
-} */
-
 header .navbar .navbar-nav .nav-item .nav-link:after {
 	background: none repeat scroll 0 0 transparent;
 	bottom: 0;
@@ -185,14 +181,13 @@ header .landing .start-btn {
 	-webkit-animation: arrow 1s infinite;
 	animation: arrow 1s infinite;
 	font-size: 2.1rem;
+	transition: all 0.2s;
 }
 
 header .landing .start-btn:hover {
 	color: gold;
 	-webkit-transform: scale(1.02);
 	transform: scale(1.02);
-	-webkit-transition: 0.2s;
-	transition: 0.2s;
 }
 
 header .landing .sub-heading {
@@ -269,11 +264,19 @@ header .landing .sub-heading {
 	font-size: 3.5rem;
 	margin-top: 0.3em;
 	color: goldenrod;
+	transition: all 0.4s;
+}
+.contact .container .row i:hover {
+	color: gold;
 }
 
 .contact .container .row .under-text {
 	margin: 0.5em 0;
 	font-weight: 600;
+}
+
+.contact .icon-section div div {
+	transition: all 0.3s;
 }
 
 .swiper {
